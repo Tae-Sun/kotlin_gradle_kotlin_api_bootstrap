@@ -4,9 +4,6 @@ import io.ktor.application.*
 import io.ktor.features.*
 import org.springframework.boot.autoconfigure.SpringBootApplication
 import org.springframework.boot.runApplication
-import reactor.netty.http.server.HttpServer
-import java.net.InetSocketAddress
-import java.sql.DriverManager.println
 
 import io.ktor.server.engine.embeddedServer
 import io.ktor.server.netty.Netty
